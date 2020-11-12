@@ -5,8 +5,10 @@ class Header extends React.Component{
    render(){
      return(
        <header id="main-header">
-          <img src="../logo.svg" />
-          <h1>Reddit Me</h1>
+          <ul>
+            <li><img src="../logo.svg" /></li>
+            <li><h1>Reddit Me</h1></li>
+          </ul>
        </header>
      )
    }
