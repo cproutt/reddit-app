@@ -2,8 +2,18 @@ import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
+import Header from './app/header';
 
-function App() {
+class App extends React.Component{
+  render(){
+    return(
+      <Header />
+
+    )
+  }
+}
+
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -53,6 +63,6 @@ function App() {
       </header>
     </div>
   );
-}
+}*/
 
 export default App;
