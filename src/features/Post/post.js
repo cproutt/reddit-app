@@ -10,6 +10,7 @@ class Post extends React.Component{
      return(
       <article>
         <div className="col-xs-1">
+          
         </div>
       </article>
      )
